@@ -260,6 +260,62 @@
             margin-bottom: 0.5rem;
         }
         
+        .cv-section {
+            margin-bottom: 2.5rem;
+        }
+        
+        .cv-section h3 {
+            color: #1e3a8a;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #93c5fd;
+            padding-bottom: 0.3rem;
+        }
+        
+        .cv-item {
+            background: #f8fafc;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .cv-item .cv-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .cv-item h4 {
+            color: #1e3a8a;
+            font-size: 1.1rem;
+            margin: 0;
+        }
+        
+        .cv-item .period {
+            color: #64748b;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        
+        .cv-item .institution {
+            color: #475569;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        
+        .cv-item ul {
+            margin-left: 1.5rem;
+            color: #475569;
+        }
+        
+        .cv-item ul li {
+            margin-bottom: 0.3rem;
+        }
+        
         footer {
             background: #1e293b;
             color: white;
@@ -304,6 +360,7 @@
                 <li><a href="#research">Research</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#cv">CV</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -436,6 +493,139 @@
                 <p><strong>Volume:</strong> 30 hours per year</p>
                 <p><strong>Years:</strong> 2023-2024, 2024-2025</p>
             </div>
+        </section>
+
+        <section id="cv">
+            <h2>Curriculum Vitae</h2>
+            
+            <div class="cv-section">
+                <h3>Education</h3>
+                
+                <div class="cv-item">
+                    <div class="cv-header">
+                        <h4>PhD in Signal and Image Processing</h4>
+                        <span class="period">Oct 2022 - Dec 2025</span>
+                    </div>
+                    <p class="institution">Laboratoire CRIStAL (SigMA Team), Villeneuve-d'Ascq</p>
+                    <p><strong>Topic:</strong> Asynchronous MCMC algorithms for fast Bayesian inference</p>
+                    <p>Developing new MCMC algorithms that are fast in high dimension and distributed (or even asynchronous).</p>
+                    <p><strong>Supervisors:</strong> Pierre-Antoine Thouvenin (Maître de conférence), Pierre Chainais (Professeur)</p>
+                </div>
+                
+                <div class="cv-item">
+                    <div class="cv-header">
+                        <h4>Data Science Master</h4>
+                        <span class="period">2020 - 2022</span>
+                    </div>
+                    <p class="institution">University of Lille, Villeneuve-d'Ascq</p>
+                    <p><strong>Double degree with École Centrale de Lille</strong></p>
+                    <ul>
+                        <li><strong>Advanced Mathematics:</strong> differential calculus & optimization, measure theory, linear algebra</li>
+                        <li><strong>Machine Learning:</strong> kernel machines, deep learning (CNN, MLP, GANs, VAE), Bayesian approaches (MCMC), reinforcement learning, ethical aspects of AI, privacy</li>
+                        <li><strong>Practice:</strong> OOP, parallelization, heuristic algorithms, research projects, data challenge</li>
+                    </ul>
+                </div>
+                
+                <div class="cv-item">
+                    <div class="cv-header">
+                        <h4>Engineering Degree (Master's level)</h4>
+                        <span class="period">2018 - 2020</span>
+                    </div>
+                    <p class="institution">École Centrale de Lille, Villeneuve-d'Ascq</p>
+                    <p>Course mainly oriented towards IT and management. Special attention to data science and programming (Android, JAVA).</p>
+                    <ul>
+                        <li><strong>RASH project:</strong> Android programming of a GPS adapted for people with reduced mobility on the Lille campus</li>
+                        <li><strong>IA and Health module:</strong> optimisation of an emergency patient file</li>
+                        <li><strong>MOOC Project Management by R. BACHELET:</strong> national diploma (classical and advanced courses)</li>
+                    </ul>
+                </div>
+                
+                <div class="cv-item">
+                    <div class="cv-header">
+                        <h4>Preparatory Classes (CPGE)</h4>
+                        <span class="period">2015 - 2018</span>
+                    </div>
+                    <p class="institution">Carnot Highschool, Dijon</p>
+                    <p>Preparatory classes for competitive exams for engineering schools specialized in mathematics, physics and chemistry.</p>
+                </div>
+                
+                <div class="cv-item">
+                    <div class="cv-header">
+                        <h4>A-level (Baccalauréat)</h4>
+                        <span class="period">2013 - 2015</span>
+                    </div>
+                    <p class="institution">Charles de Gaulle International Highschool, Dijon</p>
+                    <p><strong>A-level obtained in Science</strong> with highest honors and European mention.</p>
+                </div>
+            </div>
+            
+            <div class="cv-section">
+                <h3>Professional Experience</h3>
+                
+                <div class="cv-item">
+                    <div class="cv-header">
+                        <h4>Research Intern - CRIStAL Laboratory</h4>
+                        <span class="period">Apr - Oct 2022</span>
+                    </div>
+                    <p class="institution">NOCE Team, 6-month internship</p>
+                    <ul>
+                        <li>Study of <strong>Knowledge Tracing</strong> models based on the Self-Attention mechanism</li>
+                        <li><strong>Articles publication</strong> for several related events like EIAH & IA</li>
+                        <li><strong>Presentation at meetings</strong> like I2C in CRIStAL</li>
+                    </ul>
+                </div>
+                
+                <div class="cv-item">
+                    <div class="cv-header">
+                        <h4>Data Science Intern - Crédit Agricole Consumer Finance</h4>
+                        <span class="period">Apr - Aug 2021</span>
+                    </div>
+                    <p class="institution">4-month internship</p>
+                    <p><strong>Project:</strong> Elaboration of a model to predict money laundering</p>
+                    <ul>
+                        <li>Gathering and consolidation of external data</li>
+                        <li>Descriptive analysis and feature selection</li>
+                        <li>Elaboration of the first XGBoost models regarding several measures (AUC-PR, Accuracy, Gini...)</li>
+                        <li><strong>Community Management</strong> about Data</li>
+                    </ul>
+                </div>
+                
+                <div class="cv-item">
+                    <div class="cv-header">
+                        <h4>Technical Intern - SNCF</h4>
+                        <span class="period">Feb 2019</span>
+                    </div>
+                    <p class="institution">4-week internship</p>
+                    <ul>
+                        <li><strong>In-depth analysis</strong> of official and technical documents</li>
+                        <li>Study and <strong>collection of information</strong> from field staff</li>
+                        <li>Production of a <strong>summary document</strong> for maintenance agents</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- <div class="cv-section">
+                <h3>Skills & Interests</h3>
+                
+                <div class="cv-item">
+                    <h4>Technical Skills</h4>
+                    <ul>
+                        <li><strong>Programming:</strong> Python, JAVA, C++, MATLAB, R</li>
+                        <li><strong>Machine Learning:</strong> PyTorch, TensorFlow, scikit-learn</li>
+                        <li><strong>High-Performance Computing:</strong> CUDA, Multi-GPU computing, Distributed systems</li>
+                        <li><strong>Development:</strong> Git, OOP, Parallelization, Android</li>
+                    </ul>
+                </div>
+                
+                <div class="cv-item">
+                    <h4>Personal Interests</h4>
+                    <p style="color: #475569; font-style: italic;">
+                        "Overcoming challenges and progressing have always been a driving force for me, both professionally and personally. 
+                        This need to learn and to surpass myself is fulfilled daily through the practice of <strong>team sport</strong>, 
+                        <strong>the piano</strong>, and more recently <strong>chess</strong>."
+                    </p>
+                </div>
+            </div> -->
         </section>
 
         <section id="contact">
