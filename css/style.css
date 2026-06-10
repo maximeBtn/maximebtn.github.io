@@ -121,6 +121,7 @@ h3.pub-category:first-child {
     font-size: 2.5rem;
     color: #1e3a8a;
     margin-bottom: 0.5rem;
+    text-align: justify;
 }
 
 .hero-content .title {
@@ -128,6 +129,14 @@ h3.pub-category:first-child {
     color: #64748b;
     margin-bottom: 0.5rem;
 }
+
+.hero-content .description {
+    /* font-size: 1.3rem; */
+    color: #64748b;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+}
+
 
 .hero-content .contact {
     margin-top: 1.5rem;
@@ -236,6 +245,14 @@ h3.pub-category:first-child {
 
 .pub-link.slides:hover {
     background: #047857;
+}
+
+.pub-link.doi {
+    background: #d6710c;
+}
+
+.pub-link.doi:hover {
+    background: #a4570a;
 }
 
 .research-interests {
